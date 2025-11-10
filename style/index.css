@@ -6,16 +6,16 @@
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
-    background-color: #262826 ;
+    background-color: white;
 }
 
 /* ÍNICIO DO HEADER UNIVERSAL */
 
 .header {
-    background-color: #262826;
+    background-color: white;
     display: flex;
     flex-direction: column;
-    color: aliceblue;
+    color: black;
 }
 
 .header .container {
@@ -24,7 +24,7 @@ body {
     align-items: center;
     font-size: 24px;
     flex-direction:column ;
-     color: aliceblue;
+     color: black;
 }
 
 .header .container img {
@@ -44,7 +44,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-     color: aliceblue;
+     color: black;
 }
 
 .header .container .container {
@@ -60,7 +60,7 @@ body {
 .navbar a {
     outline: none;
     text-decoration: none;
-     color: aliceblue;;
+     color: black;
     marker: none;
 }
 
