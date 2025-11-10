@@ -1,7 +1,8 @@
 # 🏀 Projeto: Dribles da Vida
 
-Um website informativo dedicado ao **basquete**, abordando sua história, regras, curiosidades, grandes jogadores e a influência do esporte em minha vida!  
+Um website informativo dedicado ao **basquete**
 O objetivo é **inspirar e informar**.
+
 Veja Minha evolução na ferramenta de gestão Trello:
 https://trello.com/invite/b/6904d1f743d8ceae0b44283e/ATTI6339bbc0dfc2ceac4a9ee88fb3121e1618594FDD/dribles-da-vida-projeto-pessoal
 ---
