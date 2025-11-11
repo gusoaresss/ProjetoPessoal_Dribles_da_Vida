@@ -6,65 +6,114 @@
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
-    background-color: white;
 }
 
-/* ÍNICIO DO HEADER UNIVERSAL */
-
-.header {
-    background-color: white;
+.header{
     display: flex;
-    flex-direction: column;
-    color: black;
-}
-
-.header .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    flex-direction:column ;
-     color: black;
-}
-
-.header .container img {
-    width: 100%;
-}
-
-.title {
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-.header .container .navbar {
-    display: flex;
-    width: 40%;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-     color: black;
-}
-
-.header .container .container {
-    display: flex;
-    width: 500px;
     justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+    border-bottom: 2px solid black;
+    background-color: black;
+    color: white;
+  
 
-.navbar a {
-    outline: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     text-decoration: none;
-     color: black;
-    marker: none;
+}
+.nav_a{
+  text-decoration: none;
+  color: white;
+  font-weight: border;
+  
+  
+    
+
 }
 
-.now {
+
+.primeiro_bloco{
+    background-image: url(../img/backgroud_quadra.png);
+    color: white;
+   width: 100%;
+    padding: 350px;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.button_jogar{
+    display: flex;
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(197, 95, 0);
+    color: white;
+    border: 2px solid rgb(197, 95, 0) ;
+    border-radius: 8px;
+    align-self: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.button_jogar:hover{
+    background-color: black;
+    color: white;
+     transition: 0.5s;
+
+}
+
+.button_conheca{
+    display: flex;
+    width: 150px;
+    padding: 15px;
+    background-color:black;
+    color: white;
+    border: 2px solid rgb(197, 95, 0) ;
+    border-radius: 8px;
+    align-self: center;
+    cursor: pointer;
+    margin-left: 35px;
+    font-size: 15px;
     font-weight: bolder;
 }
-/*FIM DO HEADER UNIVERSAL*/
+.button_conheca:hover{
+    background-color: rgb(197, 95, 0);
+    color: white;
+     transition: 0.5s;
+}
+
+.segundo_bloco{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 100px;
+}
+.button_segundo_bloco{
+    display: flex;
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(197, 95, 0);
+    color: white;
+    border: 2px solid rgb(197, 95, 0) ;
+    border-radius: 8px;
+    align-self: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.button_segundo_bloco:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.fotos_jogador{
+    margin-left: 45px;
+}
