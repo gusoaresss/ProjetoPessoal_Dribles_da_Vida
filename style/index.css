@@ -175,5 +175,33 @@ transition: 1s;
 background-color: black;
 transition: 1s;
 }
+.quarto_bloco{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    flex-direction: row;
+}
+.bloco_info_quarto{
+    display: flex;
+    padding: 10px;
+    border: none;
+    background-color: #262826;
+    color: white;
+    border-radius: 20px;
+    flex-direction: column ;
+    gap: 240px;
+    align-items: center;
+
+  
+}
+.button_saiba_mais_quartoBloco{
+    background-color: black;
+    color: white;
+    width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
 
 
