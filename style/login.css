@@ -8,20 +8,57 @@ body {
     margin: 0;
     font-family: "Poppins", sans-serif;
     background-color: black;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .container_login{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 200px;
 }
 
-.img_backgroud{
-    background-image: url(../img/backgroud_login_3.png);
-    width: 50%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .card_login{
+display: flex;
 color: white;
+width: 350px;
+padding: 15px;
+background-color: rgba(0, 0, 0, 0.6);
+flex-direction: column;
+justify-content: flex-end;
+
+
 }  
+
+img{
+    width: 500px;
+}
+
+a{
+     text-decoration: none;
+     color:rgb(197, 95, 0) ;
+}
+
+a:hover{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.a_opcoes{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    border: solid 2px rgb(197, 95, 0) ;
+    background-color: #262826 ;
+    color: white;
+    font-weight: border;
+}
