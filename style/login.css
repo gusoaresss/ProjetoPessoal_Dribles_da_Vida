@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    letter-spacing: 1.2px;
+  
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+}
+
+.container_login{
+    display: flex;
+    flex-direction: row;
+}
+
+.img_backgroud{
+    background-image: url(../img/backgroud_login_3.png);
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card_login{
+color: white;
+}  
