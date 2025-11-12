@@ -93,7 +93,7 @@ body {
     display: flex;
     background-color: black;
     color: white;
-    padding: 100px;
+    padding: 50px;
 }
 .button_segundo_bloco{
     display: flex;
@@ -117,3 +117,63 @@ body {
 .fotos_jogador{
     margin-left: 45px;
 }
+
+.terceiro_bloco{
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+.cards_pai{
+    display: flex;
+    background-color: black;
+    padding: 45px;
+    color: white;
+    flex-direction: row;
+    gap: 25px;
+    
+}
+
+.card_1{
+    background-color: rgb(197, 95, 0);
+    border: 2px solid rgb(197, 95, 0) ;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card_1:hover{
+background-color: black;
+transition: 1s;
+}
+.card_2{
+    background-color: rgb(197, 95, 0);
+    border: 2px solid rgb(197, 95, 0) ;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card_2:hover{
+background-color: black;
+transition: 1s;
+}
+
+.card_3{
+    background-color: rgb(197, 95, 0);
+    border: 2px solid rgb(197, 95, 0) ;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card_3:hover{
+background-color: black;
+transition: 1s;
+}
+.card_4{
+    background-color: rgb(197, 95, 0);
+    border: 2px solid rgb(197, 95, 0) ;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card_4:hover{
+background-color: black;
+transition: 1s;
+}
+
+
